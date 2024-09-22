@@ -1,0 +1,166 @@
+/* Register.css */
+
+/* Main container styling */
+.main-container-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  /* background-image: url('https://images.pexels.com/photos/7233099/pexels-photo-7233099.jpeg?auto=compress&cs=tinysrgb&w=600');  */
+  background-blur: 5px;
+  
+}
+
+/* Register container styling */
+.register-container {
+  background: linear-gradient(135deg, #f0f4f8, #e0e8f1);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Heading styling */
+/* Heading styling */
+.register-container h1 {
+  text-align: center;
+  color: #ffffff; /* Text color */
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif; /* Modern and clean font */
+  background: #6c757d; /* Neutral, soft background color */
+  padding: 10px 20px; /* Reduced padding for less height */
+  border-radius: 8px; /* Slightly rounded corners */
+  display: block; /* Make the heading block level for width adjustments */
+  width: 100%; /* Full width of the container */
+  max-width: 500px; /* Maximum width of the heading box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  border: 1px solid #5a6268; /* Slightly darker border color */
+  margin: 0 auto 20px auto; /* Center the heading */
+}
+
+.register-container h1:hover {
+  background: #5a6268; /* Slightly darker background on hover */
+  border-color: #4e555b; /* Darker border color on hover */
+}
+
+
+/* Horizontal rule styling */
+.register-container hr {
+  border: 0;
+  height: 1px;
+  background: #c1c7d0;
+  margin: 20px 0;
+}
+.register-container label {
+  display: block;
+  font-size: 14px;
+  margin: 12px 0 5px; /* Slightly more margin for better spacing */
+  color: #495057; /* Darker text color for labels */
+  font-weight: 500; /* Medium weight for readability */
+  font-family: 'Poppins', sans-serif; /* Matching font family */
+}
+/* Form label styling */
+.register-container label {
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 5px;
+  color: #495057;
+}
+
+
+/* Input field styling */
+.register-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 7px;
+  margin-bottom: 5px;
+  height: 50px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-input:hover,
+.register-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(38, 143, 255, 0.5);
+}
+
+/* Button styling */
+.Submit-btn {
+  width: 93%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.Submit-btn:hover {
+  background: #0056b3;
+}
+
+/* Already have an account styling */
+.Already-para {
+  text-align: center;
+  margin-top: 15px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Button container styling */
+.btn-register-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.login-btn-register, .Sign-in-Google {
+  padding: 10px 15px;
+  background-color: #007bff; /* Adjust color as needed */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  height: 40px;
+}
+
+.login-btn-register {
+  background: #28a745;
+  width: 48%;
+}
+
+.login-btn-register:hover {
+  background: #218838;
+}
+
+.Sign-in-Google {
+  background: #db4437;
+  width: 48%;
+}
+
+.Sign-in-Google:hover {
+  background: #c1351d;
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

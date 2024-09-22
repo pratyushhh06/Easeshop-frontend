@@ -1,0 +1,96 @@
+/* Login.css */
+body {
+  font-family: "popins", sans-serif;
+}
+.main-login-container {
+  background-image: linear-gradient(#93a5cf, #e4efe9);
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 1500px;
+  border-radius: 10px;
+}
+.second-main-container-login{
+  display: flex;
+  background-image: linear-gradient(#596fa0, white);
+  margin-left: 400px;
+  margin-top: -20px;
+  border-radius: 10px;
+}
+.image-container-login img {
+  margin-top: 12px;
+  height: 463px;
+  width: 400px;
+}
+.login-photo {
+  position: absolute;
+  height: 100vh;
+}
+
+.login-container {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 12px;
+  height: 460px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  margin-top: 2px;
+  color: #333;
+}
+.login-container hr {
+  margin-top: 2px;
+  border-radius: 10px;
+  height: 3px; /* Adjust the value as needed */
+  background-color: grey; /* Color of the <hr> */
+  border: none;
+}
+
+.login-password {
+  margin-right: 260px;
+  color: #504f4f;
+  font-weight: bold;
+}
+.login-email {
+  margin-right: 290px;
+  color: #504f4f;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  font-family: "poppins", sans-serif;
+  padding: 15px;
+
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.login-input:hover {
+  border: 2px solid #007bff; /* Example: change border color on hover */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Example: add shadow on hover */
+}
+
+button.login-submit {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+button.login-submit:hover {
+  background-color: #0056b3;
+}

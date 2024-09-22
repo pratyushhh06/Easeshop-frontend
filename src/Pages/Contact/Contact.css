@@ -1,0 +1,74 @@
+.big-contact-container{
+    background-color: rgb(198, 231, 242);
+    min-height: 100vh;
+    padding: 20px;
+  
+  }
+  .contact-container{
+    display: flex;
+    
+    width: 600px;
+    height: 400px;
+    margin-left: 440px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+  }
+  .left-contact-container img{
+    margin-top: 20px;
+    width: 300px;
+    height: 350px;
+    border-radius: 16px;
+  }
+  .contact-heading{
+    margin-top: 20px;
+   margin-right: 40px;
+   font-weight: bold;
+   font-size: 35px;
+   font-family: 'poppins', sans-serif;
+  
+  }
+  
+  .input-box input{
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    border: none;
+    background-color: lightblue;
+    padding: 5px;
+    margin-bottom: 8px;
+  }
+  .email-input-contact{
+    margin-right: 100px;
+    height: 40px;
+  }
+  .name-input-contact{
+    margin-right: 100px;
+    height: 40px;
+
+  }
+  .message-input-box{
+    height: 80px;
+  }
+  
+  .Send-message-btn{
+      border-radius: 10px;
+      font-family:"Poppins", sans-serif ;
+      margin-top: 2px;
+      width: 250px;
+      border: 1px solid lightgray;
+      margin-left: 5px;
+      height: 40px;
+      color: white;
+      background-color: ;
+  
+  }
+  .Send-message-btn:hover{
+    background-color:  darkgrey;
+  
+  }
+  
+  
+  
+  

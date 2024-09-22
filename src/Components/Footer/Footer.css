@@ -1,0 +1,50 @@
+/* Footer.css */
+.footer {
+  background: #a9c5e1; /* Light background color */
+  color: #202020; /* Dark text color for contrast */
+  padding: 20px 0;
+  
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem; /* Slightly larger font size */
+  font-weight: 600; /* Semi-bold font weight */
+}
+
+.footer p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-link {
+  color: #007bff; /* Light blue color for links */
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #0056b3; /* Darker blue color on hover */
+}
+
+.footer-animation {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
